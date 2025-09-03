@@ -1,0 +1,15 @@
+sno=int(input("Enter student number"))
+sname=input("Enter name")
+phymarks=int(input("Enter phy marks"))
+chemmarks=int(input("Enter chem marks"))
+matmarks=int(input("Enter maths marks"))
+total=phymarks+chemmarks+matmarks
+avg=(phymarks+chemmarks+matmarks)/3
+print("Student details")
+print("Student number",sno)
+print("Student name",sname)
+print("Student phy marks",phymarks)
+print("Student chem marks",chemmarks)
+print("Student math marks",matmarks)
+print("Total marks",total)
+print("Average marks:",avg)
